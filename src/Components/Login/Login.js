@@ -28,12 +28,12 @@ class Login extends Component {
             Ingresa la contrasena de administrador
           </Typography>
 
-          <hr />
+          <br />
 
           <div className={styles.form}>
             <TextField
-              id="password"
-              label='Enter admin password'
+              required
+              label='Admin password'
               type="password"
               onChange={(event) => this.setState({ password: event.target.value })}>
             </TextField>

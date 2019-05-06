@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import "bootstrap/dist/css/bootstrap.min.css";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./Layout/Navbar/Navbar";
 import ProductList from "./Components/ProductList/ProductList";
-import Admin from "./Components/Admin/Admin";
 import Login from "./Components/Login/Login";
+import AddProduct from './Components/Admin/AddProduct/AddProduct';
 
 class Routes extends Component {
   state = {
@@ -24,6 +23,7 @@ class Routes extends Component {
           <Switch>
             <Route path="/" exact component={ProductList} />
             <Route path="/login" component={Login} />
+            <Route path="/add_item" component={AddProduct} />
           </Switch>
         </div>
       </Router>

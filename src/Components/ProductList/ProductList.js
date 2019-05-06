@@ -5,6 +5,7 @@ import {
   TableBody,
   TableCell,
   TableRow,
+  TableSortLabel,
   Checkbox,
   Paper
 } from "@material-ui/core";
@@ -13,15 +14,32 @@ import dummyProducts from './dummyProducts';
 
 const ProductList = () => {
 
-  const renderProducts = (name, price, stock) => {
+  const TableCategories = ['ID', 'Nombre', 'Precio', 'Stock'];
+
+  const renderTableBodyRows = () => {
     return dummyProducts.map((product, i) => (
       <TableRow key={i}>
-        <Checkbox />
+        <TableCell padding='checkbox'>
+          <Checkbox />
+        </TableCell>
         <TableCell>{i}</TableCell>
         <TableCell>{product.name}</TableCell>
         <TableCell>{product.price}</TableCell>
         <TableCell>{product.stock}</TableCell>
       </TableRow>
+    ));
+  };
+
+  const renderTableHeadCells = () => {
+    return TableCategories.map((category, i) => (
+      <TableCell>
+        <TableSortLabel
+          active={true}
+          direction='desc'
+        >
+          {category}
+        </TableSortLabel>
+      </TableCell>
     ));
   };
 
@@ -31,15 +49,16 @@ const ProductList = () => {
         <Table>
           <TableHead>
             <TableRow>
-              <TableCell></TableCell>
-              <TableCell>ID</TableCell>
-              <TableCell>Nombre</TableCell>
-              <TableCell>Precio</TableCell>
-              <TableCell>Stock</TableCell>
+              <TableCell padding='checkbox'>
+                <Checkbox />
+              </TableCell>
+
+              {renderTableHeadCells()}
+
             </TableRow>
           </TableHead>
           <TableBody>
-            {renderProducts()}
+            {renderTableBodyRows()}
           </TableBody>
         </Table>
       </Paper>

@@ -1,7 +1,8 @@
 .link{
     text-decoration: none;
     color: #ccc;
-    
+    display: flex;
+    align-items: center;
 }
 
 .link:hover{

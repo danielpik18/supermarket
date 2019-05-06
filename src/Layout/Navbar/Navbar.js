@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
-import { Link, Redirect } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 import styles from "./Navbar.module.css";
+
 import {
   AppBar,
   Toolbar,
-  Typography,
   Button,
   IconButton,
-  Drawer
+  Drawer,
+  List,
+  ListItem,
+  ListItemText
 } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
+
+import { FiPackage, FiUser, FiPlusCircle } from 'react-icons/fi';
 
 class Navbar extends Component {
   state = {
@@ -17,15 +23,24 @@ class Navbar extends Component {
     menuLinks: [
       {
         path: '/',
-        name: 'Productos'
+        name: 'Productos',
+        icon: <FiPackage style={{
+          marginRight: '1rem'
+        }} />
       },
       {
         path: '/login',
-        name: 'Login'
+        name: 'Login',
+        icon: <FiUser style={{
+          marginRight: '1rem'
+        }} />
       },
       {
-        path: '/handle_item',
-        name: 'Agregar producto'
+        path: '/add_item',
+        name: 'Agregar producto',
+        icon: <FiPlusCircle style={{
+          marginRight: '1rem'
+        }} />
       },
     ]
   }
@@ -34,19 +49,26 @@ class Navbar extends Component {
     this.setState({ drawerOpen: !this.state.drawerOpen });
   }
 
-  generateRouterLink = () => {
-    return this.state.menuLinks.map((link, i) => (
-      <Link
-        key={i}
-        to={link.path}
-        onClick={this.handleDrawer}>
-        <Button style={{
-          outline: 'none'
-        }}>
-          {link.name}
-        </Button>
-      </Link>
-    ))
+  generateRouterLinks = () => {
+    return this.state.menuLinks.map((link, i) => {
+
+      return (
+        <Link
+          key={i}
+          className={styles.link}
+          to={link.path}
+          onClick={this.handleDrawer}>
+          <ListItem button>
+            <ListItemText style={{
+              padding: '.6rem'
+            }}>
+              {link.icon}
+              {link.name}
+            </ListItemText>
+          </ListItem>
+        </Link>
+      );
+    })
   };
 
 
@@ -69,12 +91,14 @@ class Navbar extends Component {
             </IconButton>
 
             <Link to='/' className={styles.link}>
+              <FiPackage />
               <Button className={styles.button}>
                 Inventario de productos
               </Button>
             </Link>
 
             <Link to="/login" className={styles.link}>
+              <FiUser />
               <Button className={styles.button}>
                 Login
               </Button>
@@ -83,8 +107,14 @@ class Navbar extends Component {
           </Toolbar>
         </AppBar>
 
-        <Drawer open={this.state.drawerOpen} onClose={this.handleDrawer}>
-          {this.generateRouterLink()}
+        <Drawer
+          open={this.state.drawerOpen}
+          onClose={this.handleDrawer}
+          width='30rem'
+        >
+          <List>
+            {this.generateRouterLinks()}
+          </List>
         </Drawer>
       </div>
     );
