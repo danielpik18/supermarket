@@ -1,0 +1,15 @@
+.link{
+    text-decoration: none;
+    color: #ccc;
+    
+}
+
+.link:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.button{
+    color: inherit !important;
+    outline: none !important;
+}
