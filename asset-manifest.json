@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/danielpik18/supermarket/static/css/main.74431d95.chunk.css",
+    "main.js": "/danielpik18/supermarket/static/js/main.5d6c9472.chunk.js",
+    "main.js.map": "/danielpik18/supermarket/static/js/main.5d6c9472.chunk.js.map",
+    "runtime~main.js": "/danielpik18/supermarket/static/js/runtime~main.6d812dfa.js",
+    "runtime~main.js.map": "/danielpik18/supermarket/static/js/runtime~main.6d812dfa.js.map",
+    "static/js/2.15b93246.chunk.js": "/danielpik18/supermarket/static/js/2.15b93246.chunk.js",
+    "static/js/2.15b93246.chunk.js.map": "/danielpik18/supermarket/static/js/2.15b93246.chunk.js.map",
+    "index.html": "/danielpik18/supermarket/index.html",
+    "precache-manifest.44fcb916bbdcd2127a8c85112569fdaf.js": "/danielpik18/supermarket/precache-manifest.44fcb916bbdcd2127a8c85112569fdaf.js",
+    "service-worker.js": "/danielpik18/supermarket/service-worker.js",
+    "static/css/main.74431d95.chunk.css.map": "/danielpik18/supermarket/static/css/main.74431d95.chunk.css.map"
+  }
+}
