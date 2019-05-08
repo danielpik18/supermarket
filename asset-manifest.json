@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/danielpik18/supermarket/static/css/main.74431d95.chunk.css",
-    "main.js": "/danielpik18/supermarket/static/js/main.5d6c9472.chunk.js",
-    "main.js.map": "/danielpik18/supermarket/static/js/main.5d6c9472.chunk.js.map",
-    "runtime~main.js": "/danielpik18/supermarket/static/js/runtime~main.6d812dfa.js",
-    "runtime~main.js.map": "/danielpik18/supermarket/static/js/runtime~main.6d812dfa.js.map",
-    "static/js/2.15b93246.chunk.js": "/danielpik18/supermarket/static/js/2.15b93246.chunk.js",
-    "static/js/2.15b93246.chunk.js.map": "/danielpik18/supermarket/static/js/2.15b93246.chunk.js.map",
-    "index.html": "/danielpik18/supermarket/index.html",
-    "precache-manifest.44fcb916bbdcd2127a8c85112569fdaf.js": "/danielpik18/supermarket/precache-manifest.44fcb916bbdcd2127a8c85112569fdaf.js",
-    "service-worker.js": "/danielpik18/supermarket/service-worker.js",
-    "static/css/main.74431d95.chunk.css.map": "/danielpik18/supermarket/static/css/main.74431d95.chunk.css.map"
+    "main.css": "/supermarket/static/css/main.d86a1912.chunk.css",
+    "main.js": "/supermarket/static/js/main.283f3dbb.chunk.js",
+    "main.js.map": "/supermarket/static/js/main.283f3dbb.chunk.js.map",
+    "runtime~main.js": "/supermarket/static/js/runtime~main.ac1c8966.js",
+    "runtime~main.js.map": "/supermarket/static/js/runtime~main.ac1c8966.js.map",
+    "static/js/2.b2be5e4d.chunk.js": "/supermarket/static/js/2.b2be5e4d.chunk.js",
+    "static/js/2.b2be5e4d.chunk.js.map": "/supermarket/static/js/2.b2be5e4d.chunk.js.map",
+    "index.html": "/supermarket/index.html",
+    "precache-manifest.69d54432b07c42cb71b6538627a93d94.js": "/supermarket/precache-manifest.69d54432b07c42cb71b6538627a93d94.js",
+    "service-worker.js": "/supermarket/service-worker.js",
+    "static/css/main.d86a1912.chunk.css.map": "/supermarket/static/css/main.d86a1912.chunk.css.map"
   }
 }
