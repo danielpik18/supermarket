@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/supermarket/static/css/main.d86a1912.chunk.css",
-    "main.js": "/supermarket/static/js/main.38c2b932.chunk.js",
-    "main.js.map": "/supermarket/static/js/main.38c2b932.chunk.js.map",
+    "main.js": "/supermarket/static/js/main.c1733cdc.chunk.js",
+    "main.js.map": "/supermarket/static/js/main.c1733cdc.chunk.js.map",
     "runtime~main.js": "/supermarket/static/js/runtime~main.ac1c8966.js",
     "runtime~main.js.map": "/supermarket/static/js/runtime~main.ac1c8966.js.map",
     "static/js/2.b2be5e4d.chunk.js": "/supermarket/static/js/2.b2be5e4d.chunk.js",
     "static/js/2.b2be5e4d.chunk.js.map": "/supermarket/static/js/2.b2be5e4d.chunk.js.map",
     "index.html": "/supermarket/index.html",
-    "precache-manifest.2ee17709df0f880f313b216ac2197c1f.js": "/supermarket/precache-manifest.2ee17709df0f880f313b216ac2197c1f.js",
+    "precache-manifest.c16e676b606a630cfb36bc382bb3814c.js": "/supermarket/precache-manifest.c16e676b606a630cfb36bc382bb3814c.js",
     "service-worker.js": "/supermarket/service-worker.js",
     "static/css/main.d86a1912.chunk.css.map": "/supermarket/static/css/main.d86a1912.chunk.css.map"
   }
