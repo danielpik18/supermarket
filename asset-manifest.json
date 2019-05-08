@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.d86a1912.chunk.css",
-    "main.js": "/static/js/main.484840e2.chunk.js",
-    "main.js.map": "/static/js/main.484840e2.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.b2be5e4d.chunk.js": "/static/js/2.b2be5e4d.chunk.js",
-    "static/js/2.b2be5e4d.chunk.js.map": "/static/js/2.b2be5e4d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.0d4471c2dab71287eec077594b848bf6.js": "/precache-manifest.0d4471c2dab71287eec077594b848bf6.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.d86a1912.chunk.css.map": "/static/css/main.d86a1912.chunk.css.map"
+    "main.css": "/supermarket/static/css/main.d86a1912.chunk.css",
+    "main.js": "/supermarket/static/js/main.d0346a18.chunk.js",
+    "main.js.map": "/supermarket/static/js/main.d0346a18.chunk.js.map",
+    "runtime~main.js": "/supermarket/static/js/runtime~main.ac1c8966.js",
+    "runtime~main.js.map": "/supermarket/static/js/runtime~main.ac1c8966.js.map",
+    "static/js/2.b2be5e4d.chunk.js": "/supermarket/static/js/2.b2be5e4d.chunk.js",
+    "static/js/2.b2be5e4d.chunk.js.map": "/supermarket/static/js/2.b2be5e4d.chunk.js.map",
+    "index.html": "/supermarket/index.html",
+    "precache-manifest.9fac854b390f7616e4b3f89add8cddc5.js": "/supermarket/precache-manifest.9fac854b390f7616e4b3f89add8cddc5.js",
+    "service-worker.js": "/supermarket/service-worker.js",
+    "static/css/main.d86a1912.chunk.css.map": "/supermarket/static/css/main.d86a1912.chunk.css.map"
   }
 }
